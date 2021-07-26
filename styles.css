@@ -35,3 +35,12 @@ body {
 .box.show{
     transform: translateX(0)
 }
+@media screen and (max-width: 500px){
+  .box{
+    width: 20rem;
+    height: 8rem;
+  }
+  .heading{
+    font-size: .6rem;
+  }
+}
